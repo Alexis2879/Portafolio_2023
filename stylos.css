@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary: #1bdb86;
+    --secondary: white;
+    --secondary--light: rgb(173, 173, 173);
+    --dark1: #222222;
+    --dark2: #050505;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+    /*color: #fff;*/
+}
