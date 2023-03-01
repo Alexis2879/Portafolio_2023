@@ -44,7 +44,7 @@
                <div class="contact-icon">
                    <a href="https://github.com/Alexis2879" target="_blank"><img src="./images/github.svg" alt=""></a>
                    <a href="https://www.linkedin.com/feed/"target="_blank"><img src="./images/linkendin.svg" alt=""></a>
-                   <a data-modal-id="message"><img src="./images/message.svg" alt=""></a>
+                   <a class="message"><img src="./images/message.svg" alt=""></a>
                </div>
                <div class="square-text-3"><a href="#about-me"><span>About me |</span> Sobre Mi</a></div>
             </div>
@@ -56,7 +56,7 @@
                 <div class="briefcase-section container">
                     <h2><span>Briefcase |</span> Portafolio</h2>
                     <div class="briefcase-grid">
-                        <div><a data-modal-id="myModal"><img src="./images/cabin.png" alt=""></a></div>
+                        <div><a href="#" class="briefcase__cabin"><img src="./images/cabin.png" alt=""></a></div>
                         <div><a data-modal-id="myModal"><img src="./images/cake.png" alt=""></a></div>
                         <div><a data-modal-id="myModal"><img src="./images/circus.png" alt=""></a></div>
                         <div><a data-modal-id="myModal"><img src="./images/game.png" alt=""></a></div>
@@ -153,7 +153,7 @@
                        <a href="#"><img src="./images/github.svg" alt=""></a>
                        <a href="#"><img src="./images/linkendin.svg" alt=""></a>
                        <a href="#"><img src="./images/Imagen 1.png" alt=""></a>
-                       <a data-modal-id="message"><img src="./images/message.svg" alt=""></a>
+                       <a class="message"><img src="./images/message.svg" alt=""></a>
                    </div>
                </div>
                <div class="icon-elements">
@@ -177,6 +177,56 @@
                <p>&copy; 2023 Copyright | Designed by Giovanni Medina</p>
            </footer>
 
+    
+    <section class="modal">
+        <div class="modal__container">
+            <div class="modal-close"></div>
+            <img src="/images/cabin.png" alt="" class="modal__img">
+            <h2 class="modal__title">Hello Word</h2>
+            <p class="modal__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam quia exercitationem quaerat incidunt aliquid facilis nihil illo blanditiis magnam dolor architecto odio commodi fugit voluptas, cupiditate ut.</p>
+            <div class="modal-text-2">
+                <span>Tecnologías Usadas:</span>
+                <div class="modal-tec">
+                    <img src="/images/html-icon.png" alt="">
+                    <img src="/images/css-icon.png" alt="">
+                    <img src="/images/js-icon.png" alt="">
+                    <img src="/images/seo-icon.png" alt="">
+                </div>
+            </div>
+            <div class="modal-text-3">
+                <span>ENLACE:</span><a href="https://dacorp.net"target="_blank">https://dacorp.net</a>
+            </div>
+            <a href="#" class="modal__close">Cerrar Modal</a>
+        </div>
+
+    </section>
+
+
+            
+    <div  class="modal__form message">
+        <div class="modal-content">
+            <div class="modal-close"></div>
+            <form  class="form"action="https://formspree.io/f/mdovggey"method="POST">
+                <label>Tu Correo Electrónico:
+                <input type="email" name="email">
+                </label>
+    
+                <label>Tu Mensaje:
+                <textarea name="message"></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+
+   
+       
+
+
+
+
+    <script src="./js/main.js"></script>
 
 </body>
 
