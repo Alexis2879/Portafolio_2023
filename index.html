@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="./stylos.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="./stylos.css">
     
 </head>
 <body>
     
     <header>
-        <div class="container">
-        <div class="navbar" >
+        <div class="navbar container">
+        
                 <nav>
                     <ul>
                         <li><a href="#inicio">Inicio</a></li>
@@ -24,10 +24,10 @@
                         <li><a href="#about-me">Sobre mi</a></li>
                     </ul>
                 </nav>
-            </div>
         </div>
         
-        </header>
+     </header>
+
         <section>
             <div class="hero" id="inicio">
                 <div class="container">  
@@ -38,7 +38,7 @@
                <div class="square"></div>
                <div class="circle-trans"></div>
                <div class="circle"></div>
-               <div class="profile-img"><img src="./images/profile.jpg" alt=""></div>
+               <div class="profile-img"><img src="./images/fotodev.jpg" alt=""></div>
                <div class="square-text">Giovanni Medina</div>
                <div class="square-text-2"><span>WEB DEVELOPER FULL STACK</span></div>
                <div class="contact-icon">
@@ -50,19 +50,21 @@
             </div>
            </section>
 
-           <section class="briefcase" id="briefcase">
+           <div id="briefcase"></div>
+
+           <section class="briefcase">
                 <div class="briefcase-section container">
                     <h2><span>Briefcase |</span> Portafolio</h2>
                     <div class="briefcase-grid">
-                        <div><img src="./images/cabin.png" alt=""></div>
-                        <div><img src="./images/cake.png" alt=""></div>
-                        <div><img src="./images/circus.png" alt=""></div>
-                        <div><img src="./images/game.png" alt=""></div>
-                        <div><img src="./images/safe.png" alt=""></div>
-                        <div><img src="./images/submarine.png" alt=""></div>
-                        <div><img src="./images/circus2.png" alt=""></div>
-                        <div><img src="./images/cake_2.png" alt=""></div>
-                        <div><img src="./images/submarine2.png" alt=""></div>
+                        <div><a data-modal-id="myModal"><img src="./images/cabin.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/cake.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/circus.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/game.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/safe.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/submarine.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/circus2.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/cake_2.png" alt=""></a></div>
+                        <div><a data-modal-id="myModal"><img src="./images/submarine2.png" alt=""></a></div>
                     </div>
                 </div>
            </section>
@@ -151,7 +153,7 @@
                        <a href="#"><img src="./images/github.svg" alt=""></a>
                        <a href="#"><img src="./images/linkendin.svg" alt=""></a>
                        <a href="#"><img src="./images/Imagen 1.png" alt=""></a>
-                       <a href="#"><img src="./images/message.svg" alt=""></a>
+                       <a data-modal-id="message"><img src="./images/message.svg" alt=""></a>
                    </div>
                </div>
                <div class="icon-elements">
@@ -164,16 +166,18 @@
                    <div>
                     <a href="https://github.com/Alexis2879/Portafolio_2023" target="blank">
                         <img src="./images/github-icon.png" alt="">
-                        <span>Ver el codigo de este proyecto desde el repositorio </span>
-                    </a>
+                        <span>Ver el codigo de este proyecto desde el repositorio </span></a>
                 </div>
                </div>
            </section>
+
+
            <footer>
                <div class="container"></div>
                <p>&copy; 2023 Copyright | Designed by Giovanni Medina</p>
            </footer>
-    
+
 
 </body>
+
 </html>
