@@ -354,14 +354,14 @@ footer {
 
 /*contact form*/
 
-form {
+/*form {
     max-width: 400px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 
-.form>label>input {
+form>label>input {
     background-color: var(--dark2);
     border-radius: 10px;
     padding: 10px 60px;
@@ -389,7 +389,33 @@ label {
     border-radius: 10px;
     padding: 10px;
 
+}*/
+
+/*formulario*/
+
+/*.contenedor {
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100%;
+    border-radius: 6px;
+    padding: 0.5em 3em;
+    background-image: url(./images/matrix.jpg);
 }
+
+.content__btn {
+    text-align: right;
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 0.5em;
+    font-weight: 600;
+    background-color: var(--primary);
+    border-radius: 50px;
+}*/
+
+
 
 
 
